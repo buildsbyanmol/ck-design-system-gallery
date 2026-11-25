@@ -1,0 +1,1 @@
+import{p as t}from"./iframe-DK2xttIN.js";import"./motion-q_NUJArm.js";const i={authHero:[t.cobalt[1e3],t.sky[500]],homeHeader:[t.cobalt[500],t.violet[500]],twilightIris:[t.violet[500],t.cobalt[500]],premium:[t.cobalt[400],t.violet[500],t.violet[400]]};t.saffron[500],t.violet[500],t.fern[500],t.sky[400];export{i as g};

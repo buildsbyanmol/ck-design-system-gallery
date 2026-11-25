@@ -1,1 +1,0 @@
-function r(a){return a==="rewards"?"Withdraw Rewards":"Withdraw Cashback"}function t(a){return a==="rewards"?"Withdrawing Available Rewards":a==="cashback_and_rewards"||a==="combined"?"Withdrawing Total Amount (Cashback + Rewards)":"Cashback Available For Payment"}export{t as a,r as w};

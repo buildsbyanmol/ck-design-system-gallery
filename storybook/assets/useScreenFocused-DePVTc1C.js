@@ -1,1 +1,0 @@
-import{r as s}from"./iframe-EJmZd_T6.js";import{N as n}from"./with-selector-HFsk6Txg.js";function a(){const e=s.useContext(n),[o,t]=s.useState(()=>e?.isFocused()??!0);return s.useEffect(()=>{if(!e)return;t(e.isFocused());const r=e.addListener("focus",()=>t(!0)),u=e.addListener("blur",()=>t(!1));return()=>{r(),u()}},[e]),o}export{a as u};

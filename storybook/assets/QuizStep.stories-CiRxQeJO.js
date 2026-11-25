@@ -1,0 +1,64 @@
+import{j as t}from"./iframe-DK2xttIN.js";import{S as p}from"./SpendQuizScreen-NdgLzipp.js";import{S as m,o as d}from"./ScreenHarness-DmOWjo0p.js";import{a as s}from"./index-DJDzVWgi.js";import{T as n}from"./_shared-CVpJO4tX.js";import"./preload-helper-Zf8nSx-t.js";import"./FocusAwareStatusBar-UZZLfMAg.js";import"./NativeStatusBarWrapper-DyWhgLfX.js";import"./with-selector-CpCbjLFO.js";import"./Text-Czhgaopg.js";import"./motion-q_NUJArm.js";import"./StepIndicator-ysgTNStF.js";import"./opacity-rEjPgtwf.js";import"./Skeleton-D3i7Yl1l.js";import"./index-DCss3D-b.js";import"./LinearGradient-CErKe_YJ.js";import"./Icon-Do0hMSFa.js";import"./xml-VjBCu6Ra.js";import"./gradients-Yoe7k8Uk.js";import"./RollingAmount-CqOyFvtd.js";import"./MaskedView.web-Dt2qNyJt.js";import"./GradientText-B3Jj38N9.js";import"./Button-CAf0Zm_X.js";import"./haptics-CV4QS1hG.js";import"./index-mJl4hEuB.js";import"./Input-Ilvy30LJ.js";import"./TextArea-DZzTx5uu.js";import"./OtpBox-aTn2cWxA.js";import"./OtpInput-ULhMVoH4.js";import"./Tag-xKc7zVYR.js";import"./tagVariants-BxEvvwJ1.js";import"./CashbackBadge-TtrT4u-G.js";import"./Badge-DMeyi0IZ.js";import"./StatusBadge-BkCHJVUF.js";import"./StatDelta-Csrnc226.js";import"./RankBadge-Gf3P_Uus.js";import"./Chip-BuxZxqKh.js";import"./Switch-DOYMAAVN.js";import"./Selector-K1IhomI7.js";import"./Checkbox-B3nHO5CU.js";import"./Radio-MUBifCiY.js";import"./Divider-Do8BLk1v.js";import"./DividerVertical-LngDeDDK.js";import"./Timer-DZGFQvSc.js";import"./CashbackTag-BLJmrLGx.js";import"./DateSelection-C_lOAu1S.js";import"./MonthSelector-BkypxRCX.js";import"./Rating-nleHKv-e.js";import"./CardTypeTag-PT_ScmsN.js";import"./WalletTag-CnXf5Rp2.js";import"./NumberBadge-D2b2o02Z.js";import"./TestimonialSavingsTag-DGdhoMWw.js";import"./SearchBar-CE3pl0W6.js";import"./useScreenFocused-CQUqApbV.js";import"./CardTile-BTfStbVG.js";import"./PartnerCard-Ny9V1xMi.js";import"./GainBand-BMDMIDTL.js";import"./CompareCard-wUfR8vjN.js";import"./elevation-DG0ULmpQ.js";import"./RankedCardRow-CNAq6MQP.js";import"./AmountInput-vuFcXfX6.js";import"./amountInput-BIBzs3v3.js";import"./BarBreakdown-Ov1ar3LP.js";import"./StackedBar-B7RTqn76.js";import"./FilterRow-C9655B76.js";import"./CategoryCircle-Cc2y7IyX.js";import"./Choice-D0RjL1kD.js";import"./TermsAndConditions-CMMlVp8j.js";import"./TabPrimary-DTfPGRdz.js";import"./TabsSecondary-B5LhQfcn.js";import"./ListRow-BQc2dCdC.js";import"./Tooltip-DuDw3JkL.js";import"./Accordion-D2Xjx4kK.js";import"./Toast-D7ijkSGP.js";import"./InlineMessage-BdiJ76-B.js";import"./StripAlert-CKclIk9-.js";import"./CardFeeStrip-2hPpjNsb.js";import"./BrandLogo-C4MMBo3z.js";import"./AmountActionRow-_blb5WB4.js";import"./DiscBulletList-B7UugVnF.js";import"./HelpTicketCard-i6-ScK9N.js";import"./TrackMoreBanner-CQAIHlZY.js";import"./PaymentRecordCard-BSnxSZ7y.js";import"./ReviewCard-BctNynsZ.js";import"./HeroVideo-7QpzFDox.js";import"./OfflineBanner-EbZibXrO.js";import"./BreakdownTable-kiMM81G4.js";import"./SpendCard-Dymb1Hdj.js";import"./PodiumCompare-nloRnlEo.js";import"./BigAmountCard-Cp6wv979.js";import"./CompareTable-FFjCxkRv.js";import"./Stepper-CpESk6gy.js";import"./InlineFilterQuestion-D9B3Khl_.js";import"./LeagueCardRow-iBF4GEM-.js";import"./cardTools-Ct3zlgT2.js";import"./CardDetailScreenAndroid-CXfh5aUg.js";import"./CardArt-B2_Yn6Bs.js";import"./Grid-CzeeP92Z.js";import"./Carousels-BWea1qog.js";import"./CardTile-B5G_pVgF.js";import"./MastheadHeader-Bx401jY6.js";import"./Footer-CeTwgTME.js";import"./EligibilityCheckerSheet-BMtEQRHN.js";import"./BottomSheetHeader-CiFr6Grc.js";import"./analytics-I5h83qZl.js";import"./useBottomSheetModal-BDD5CKeC.js";import"./Constants-DNwSuzl6.js";import"./CardDetailMasthead-aSFUdfyU.js";import"./CrossSellRail-Dg3aJaoQ.js";import"./crossSellPresent-BDcGsakY.js";import"./ShareSheet-B8U0z9R7.js";import"./index-CMrek45b.js";import"./index-CMps8-7B.js";import"./index-FMyJPicQ.js";import"./index-C6NuygFm.js";import"./HowItWorksSheet-BXRaLCLG.js";import"./ProcessSteps-DKdg8R2t.js";import"./index-B-3z50BQ.js";import"./StaggeredEntrance-B3fUmmRg.js";import"./PromoTopSheet-Dm1jHsJL.js";import"./FilterTransitionOverlay-BGj9H9su.js";import"./HomeSkeleton-BA0oBDhL.js";import"./Masthead-CfkSVdZs.js";import"./HomeHeader-CClD3Q2r.js";import"./logos-qeaCFiia.js";import"./index-d_fF_Q_-.js";import"./ToolsRow-_JOpzbYL.js";import"./index-0euZ7etH.js";import"./BottomNav-BHcCjbYX.js";import"./Header-BbeKOoJl.js";import"./OrderRow-D1HcXpVR.js";import"./OrderCard-CJ3jSQ5j.js";import"./CashbackPip-BybXcPPd.js";import"./Timeline-CJcRO7Eq.js";import"./FooterButtons-BG6MbxZE.js";import"./BottomSheetBody-CGsFws5T.js";import"./BottomSheet-DQVfsdpZ.js";import"./SelectMonthSheet-D-qRfsF0.js";import"./EarningsBreakupSheet-BRzJ3ayq.js";import"./CashbackNotConfirmedSheet-qO39klXU.js";import"./EarningStatusSheet-MzDhwklG.js";import"./PaymentProcessingSheet-B873lPAd.js";import"./LogoutConfirmSheet-CEjmx5aJ.js";import"./MissingCashbackSummarySheet-BnhXudT5.js";import"./MissingCashbackMasthead-BH0nlXIX.js";import"./WhatWentWrongInfoSheet-Woq_i2nK.js";import"./WhatWentWrongFeedbackSheet-BzuxAWH1.js";import"./FeedbackAppreciatedSheet-qKz8EDS6.js";import"./EligibilityMasthead-DRhlP1i1.js";import"./EligibleSheet-CmHti28d.js";import"./LoginSheet-b5jC8XVs.js";import"./phone-vSJF-a1K.js";import"./MaybeSheet-0s5sRKDX.js";import"./IneligibleSheet-BoPZwyob.js";import"./FilterMenu-DmfVHY1-.js";import"./filterOptions-DmmmVsSr.js";import"./OrdersFilterMenu-0hIEKmdU.js";import"./SearchTopSheet-TmuLLepz.js";import"./StoreAboutBrand-CQfslhcR.js";import"./StoreCashbackDetails-wbqkn5zP.js";import"./StoreOfferDetails-BflB7rkW.js";import"./HowToGetOfferCard-DDFgJT7_.js";import"./StoreBenefitDetails-DoGTxBrF.js";import"./StoreCashbackTimelines-Q4kc_Bfr.js";import"./StoreTermsConditions-BdVYbNUM.js";import"./StoreSimilarStore-Ch4NOXOQ.js";import"./StoreBestCards-HD1RoJio.js";import"./cardMapper-Dylnr1uR.js";import"./useClickOut-BFh9HogN.js";import"./EarnLoginSheet-Dcut3p72.js";import"./StoreFaq-zPZgb1q6.js";import"./ScreenState-sH8dnbA1.js";import"./GuestPrompt-Bdce7TEb.js";import"./QuizStep-zpoPwxWt.js";import"./CreditCardAdvisorAvatar-uDQq3L3N.js";import"./EditSpendsSheet-DFlrbHqJ.js";import"./SavingsBreakdownSheet-BVGIkwdK.js";import"./toolFlows-zJa7J82P.js";import"./SafeAreaView.web-DRtlsLU1.js";import"./index-DtwVk-ha.js";import"./bk-DM0Gts6B.js";import"./uat.calculate_waiver_lounge_trimmed-TfRyZmfl.js";const Ro={title:"Flows/4c Ultimate card/Quiz step",parameters:{layout:"fullscreen",docs:{story:{inline:!1}}}},c="src/screens/tools/SpendQuizScreen.tsx",a=d("SpendQuiz",{next:"ultimate"}),r={tags:["live"],parameters:{source:`${c}:156`,docs:{description:{story:'Question 1 of 21: step progress with the category label, the question with its hint, the ruler and typed amount, "Skip to results" and "Next".'}}},render:()=>t.jsx(m,{name:"SpendQuiz",component:p,params:a,api:s.ok()})},o={tags:["live"],parameters:{source:`${c}:156`,docs:{description:{story:'Question 8 of 21. The question index is not a route param, so "Next" is tapped 7 times after mount (about 3 s).'}}},render:()=>t.jsxs(t.Fragment,{children:[t.jsx(m,{name:"SpendQuiz",component:p,params:a,api:s.ok()}),t.jsx(n,{steps:[{click:"Next",times:7}],gapMs:300})]})},i={tags:["live"],parameters:{source:`${c}:212`,docs:{description:{story:'Question 21 of 21: the button reads "See my cards". Reached with 20 taps on "Next" after mount (about 8 s).'}}},render:()=>t.jsxs(t.Fragment,{children:[t.jsx(m,{name:"SpendQuiz",component:p,params:a,api:s.ok()}),t.jsx(n,{steps:[{click:"Next",times:20}],gapMs:300})]})},e={tags:["live"],parameters:{source:"src/molecules/SpendCard.tsx:186",docs:{description:{story:`After mount, 99999999 is typed into the "Amazon amount" field of question 1, then the field loses focus. The entry is clamped to the question's maximum: the field shows ₹10,00,000 (a month at most) and the "+" button is disabled. While the field has focus it keeps the digits as typed.`}}},render:()=>t.jsxs(t.Fragment,{children:[t.jsx(m,{name:"SpendQuiz",component:p,params:a,api:s.ok()}),t.jsx(n,{steps:[{type:"99999999",into:"Amazon amount",blur:!0}],startMs:1500})]})};r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`{
+  tags: ['live'],
+  parameters: {
+    source: \`\${SRC}:156\`,
+    docs: {
+      description: {
+        story: 'Question 1 of 21: step progress with the category label, the question with its hint, the ruler and typed amount, "Skip to results" and "Next".'
+      }
+    }
+  },
+  render: () => <ScreenHarness name="SpendQuiz" component={SpendQuizScreen} params={ultimate} api={api.ok()} />
+}`,...r.parameters?.docs?.source}}};o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{
+  tags: ['live'],
+  parameters: {
+    source: \`\${SRC}:156\`,
+    docs: {
+      description: {
+        story: 'Question 8 of 21. The question index is not a route param, so "Next" is tapped 7 times after mount (about 3 s).'
+      }
+    }
+  },
+  render: () => <>
+      <ScreenHarness name="SpendQuiz" component={SpendQuizScreen} params={ultimate} api={api.ok()} />
+      <TapScript steps={[{
+      click: 'Next',
+      times: 7
+    }]} gapMs={300} />
+    </>
+}`,...o.parameters?.docs?.source}}};i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{
+  tags: ['live'],
+  parameters: {
+    source: \`\${SRC}:212\`,
+    docs: {
+      description: {
+        story: 'Question 21 of 21: the button reads "See my cards". Reached with 20 taps on "Next" after mount (about 8 s).'
+      }
+    }
+  },
+  render: () => <>
+      <ScreenHarness name="SpendQuiz" component={SpendQuizScreen} params={ultimate} api={api.ok()} />
+      <TapScript steps={[{
+      click: 'Next',
+      times: 20
+    }]} gapMs={300} />
+    </>
+}`,...i.parameters?.docs?.source}}};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`{
+  tags: ['live'],
+  parameters: {
+    source: 'src/molecules/SpendCard.tsx:186',
+    docs: {
+      description: {
+        story: 'After mount, 99999999 is typed into the "Amazon amount" field of question 1, then the field loses focus. The entry is clamped to the question\\'s maximum: the field shows ₹10,00,000 (a month at most) and the "+" button is disabled. While the field has focus it keeps the digits as typed.'
+      }
+    }
+  },
+  render: () => <>
+      <ScreenHarness name="SpendQuiz" component={SpendQuizScreen} params={ultimate} api={api.ok()} />
+      <TapScript steps={[{
+      type: '99999999',
+      into: 'Amazon amount',
+      blur: true
+    }]} startMs={1500} />
+    </>
+}`,...e.parameters?.docs?.source}}};const Fo=["FirstQuestion","MiddleQuestion","LastQuestion","TypedAmountCapped"];export{r as FirstQuestion,i as LastQuestion,o as MiddleQuestion,e as TypedAmountCapped,Fo as __namedExportsOrder,Ro as default};
