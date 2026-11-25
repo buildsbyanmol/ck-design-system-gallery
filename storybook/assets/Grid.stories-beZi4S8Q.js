@@ -1,0 +1,50 @@
+import{j as e,V as b,c as B,r as T}from"./iframe-EJmZd_T6.js";import{G as t}from"./Grid-B78zqmRF.js";import{T as E}from"./Text-CwaPBD6t.js";import"./StepIndicator-Cre4iz30.js";import"./RollingAmount-DrOCtiOz.js";import"./GradientText-AAKTHPSy.js";import"./Button-DYQYKJ2f.js";import"./Input-DiY7GBOZ.js";import"./TextArea-Dyi4TGxF.js";import"./OtpBox-BoL7EBu7.js";import"./OtpInput-DLN2T6Wg.js";import"./Tag-eTd14hOz.js";import"./CashbackBadge-DgGOnUyv.js";import"./Badge-BVe_Pgl3.js";import"./StatusBadge-BQj0XQr3.js";import"./StatDelta-bHEPwtpG.js";import"./RankBadge-B-OkX9gr.js";import"./Skeleton-FGxaOzMx.js";import"./Chip-D4s-O_rw.js";import"./Selector-BlyoHc9F.js";import"./Checkbox-D50iCNYc.js";import"./Radio-Unpl077r.js";import"./Switch-C1TNQ11F.js";import"./Divider-u-AyCyj_.js";import"./DividerVertical-DXNsbtmg.js";import"./Timer-C9mmxMq4.js";import"./Icon-DYjHrDGy.js";import"./CashbackTag-fbeXyv4Z.js";import"./DateSelection-CZOE52iK.js";import"./MonthSelector-BHhEw5zw.js";import"./Rating-BAdRl2Vi.js";import"./CardTypeTag-q0BcU3Ga.js";import"./WalletTag-C6qBWWsm.js";import"./NumberBadge-DMcCLn1V.js";import"./TestimonialSavingsTag-BjfBNkDY.js";import{i as a}from"./index-DCss3D-b.js";import{s as x}from"./motion-CMqo2j38.js";import"./preload-helper-Zf8nSx-t.js";import"./xml-DM9nBi9W.js";import"./elevation-DG0ULmpQ.js";import"./opacity-rEjPgtwf.js";import"./index-AjmY8xRX.js";import"./LinearGradient-D-mm0dto.js";import"./gradients-Yoe7k8Uk.js";import"./MaskedView.web-BBIMN0VS.js";import"./haptics-BkmE1-bM.js";import"./tagVariants-C3ziFvwj.js";const i=()=>{},F=["filters","features","brand-1x3","brand-1x2","cashback-timelines"],h=[{icon:"feat-lounge-outline",label:"12 complimentary domestic lounge visits / year"},{icon:"feat-dining-outline",label:"Up to 7% discount at partner restaurants"},{icon:"feat-travel-outline",label:"4 international and 6 domestic lounge access"},{icon:"feat-rewards-outline",label:"₹2,500 welcome benefit on first spend"},{icon:"feat-discount-outline",label:"₹0 annual fee on ₹2,00,000+ annual spend"},{icon:"feat-fuel-outline",label:"1% fuel surcharge waiver on all stations"}],g=[{logo:a.brands.amazon,badgeText:"Up to X%",ctaLabel:"Shop Now",onPress:i},{logo:a.brands.flipkart,badgeText:"Up to X%",ctaLabel:"Shop Now",showTimer:!0,endsAt:"23:59:59",onPress:i},{logo:a.brands.myntra,badgeText:"Extra X%",ctaLabel:"Get Offer on Fashion",onPress:i}],k=[{image:a.stores.amazon2,ctaLabel:"Shop Now",onPress:i},{image:a.stores.myntra31,ctaLabel:"Shop Now",onPress:i},{image:a.stores.fkFashion1,ctaLabel:"Shop Now",onPress:i},{image:a.stores.jioMart12,ctaLabel:"Shop Now",onPress:i}],v=[{image:a.filters.shopping,label:"Shopping",selected:!0},{image:a.filters.travel,label:"Travel"},{image:a.filters.dining,label:"Dining"},{image:a.filters.fuel,label:"Fuel"}],y=[{label:"Cashback tracked in",metric:"30",unit:"Minutes",onPress:i},{label:"Cashback confirmed in",metric:"90",unit:"Days",onPress:i},{label:"Tracks app orders?",metric:"NO",unit:"Days",unitHidden:!0,onPress:i}];function w({items:r}){const[l,f]=T.useState(r.map(o=>!!o.selected));return e.jsx(t,{variant:"filters",items:r.map((o,c)=>({...o,selected:l[c]})),onToggle:(o,c)=>f(n=>n.map((m,j)=>j===o?c:m))})}function G({variant:r,count:l,columns:f,loading:o,skeletonCount:c}){const n=m=>Array.from({length:l},(j,S)=>m[S%m.length]);switch(r){case"features":return e.jsx(t,{variant:"features",items:n(h),columns:f,loading:o,skeletonCount:c});case"brand-1x3":return e.jsx(t,{variant:"brand-1x3",items:n(g).slice(0,3)});case"brand-1x2":return e.jsx(t,{variant:"brand-1x2",items:n(k)});case"filters":return e.jsx(w,{items:n(v)},l);case"cashback-timelines":return e.jsx(t,{variant:"cashback-timelines",items:n(y)})}}const je={title:"Components/Grids/Grid",component:t,tags:["autodocs","live"],parameters:{source:"src/organisms/Grid.tsx",docs:{description:{component:"One grid renderer with five variants chosen by variant: filters, features, brand-1x3, brand-1x2, cashback-timelines. Each variant has its own item type. The Playground controls below (count, columns, loading, skeletonCount) are story helpers that build the items from fixtures; they are not Grid props."}}},decorators:[r=>e.jsx(b,{style:{width:340},children:e.jsx(r,{})})],argTypes:{variant:{control:"select",options:F},count:{control:{type:"number",min:0,max:12,step:1},description:"Story helper: number of items. brand-1x3 shows at most 3."},columns:{control:{type:"number",min:1,max:3,step:1},description:"features only"},loading:{control:"boolean",description:"features only: skeleton tiles"},skeletonCount:{control:{type:"number",min:1,max:9,step:1},description:"features only, while loading"}},args:{variant:"features",count:6,columns:2,loading:!1,skeletonCount:6},render:r=>e.jsx(G,{...r})},d={},s=({title:r,children:l})=>e.jsxs(b,{style:{gap:x[8]},children:[e.jsx(E,{variant:"body12Medium",color:B.text.secondary,children:r}),l]}),p={parameters:{docs:{description:{story:"The five variants with their fixture items. features: benefit tiles on card detail. filters: selectable image squares (tap to toggle). brand-1x3: three brand offer cards. brand-1x2: promo image cards, two per row. cashback-timelines: stat cards on the store page."}}},render:()=>e.jsxs(b,{style:{width:340,gap:x[24]},children:[e.jsx(s,{title:"features",children:e.jsx(t,{variant:"features",items:h})}),e.jsx(s,{title:"filters (tap to toggle)",children:e.jsx(w,{items:v})}),e.jsx(s,{title:"brand-1x3",children:e.jsx(t,{variant:"brand-1x3",items:g})}),e.jsx(s,{title:"brand-1x2",children:e.jsx(t,{variant:"brand-1x2",items:k})}),e.jsx(s,{title:"cashback-timelines",children:e.jsx(t,{variant:"cashback-timelines",items:y})})]})},u={parameters:{docs:{description:{story:"Loading exists on features only (skeleton tiles). Empty items render nothing, with no empty message. Odd counts: a trailing single tile keeps the column width. Long labels clamp inside the fixed tile height. The other variants have no loading or error mode: the screen decides what to show then."}}},render:()=>e.jsxs(b,{style:{width:340,gap:x[24]},children:[e.jsx(s,{title:"features, loading",children:e.jsx(t,{variant:"features",loading:!0,skeletonCount:6})}),e.jsx(s,{title:"features, empty (renders nothing)",children:e.jsx(t,{variant:"features",items:[]})}),e.jsx(s,{title:"features, one item",children:e.jsx(t,{variant:"features",items:h.slice(0,1)})}),e.jsx(s,{title:"features, long labels, 3 columns",children:e.jsx(t,{variant:"features",columns:3,items:[...h,{icon:"feat-bank-outline",label:"Zero forex markup on international spends above ₹10,00,000 a year across all merchants"}]})}),e.jsx(s,{title:"filters, odd count, none selected",children:e.jsx(w,{items:v.slice(0,3).map(r=>({...r,selected:!1}))})}),e.jsx(s,{title:"brand-1x2, odd count",children:e.jsx(t,{variant:"brand-1x2",items:k.slice(0,3)})}),e.jsx(s,{title:"brand-1x3, timer shown",children:e.jsx(t,{variant:"brand-1x3",items:g.map(r=>({...r,showTimer:!0,endsAt:"08:15:30"}))})}),e.jsx(s,{title:"cashback-timelines, one item",children:e.jsx(t,{variant:"cashback-timelines",items:y.slice(0,1)})})]})};d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:"{}",...d.parameters?.docs?.source}}};p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    docs: {
+      description: {
+        story: 'The five variants with their fixture items. features: benefit tiles on card detail. filters: selectable image squares (tap to toggle). brand-1x3: three brand offer cards. brand-1x2: promo image cards, two per row. cashback-timelines: stat cards on the store page.'
+      }
+    }
+  },
+  render: () => <View style={{
+    width: 340,
+    gap: spacing[24]
+  }}>
+      <Block title="features"><Grid variant="features" items={FEATURES} /></Block>
+      <Block title="filters (tap to toggle)"><FiltersDemo items={FILTERS} /></Block>
+      <Block title="brand-1x3"><Grid variant="brand-1x3" items={BRANDS_1X3} /></Block>
+      <Block title="brand-1x2"><Grid variant="brand-1x2" items={OFFERS_1X2} /></Block>
+      <Block title="cashback-timelines"><Grid variant="cashback-timelines" items={TIMELINES} /></Block>
+    </View>
+}`,...p.parameters?.docs?.source}}};u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    docs: {
+      description: {
+        story: 'Loading exists on features only (skeleton tiles). Empty items render nothing, with no empty message. Odd counts: a trailing single tile keeps the column width. Long labels clamp inside the fixed tile height. The other variants have no loading or error mode: the screen decides what to show then.'
+      }
+    }
+  },
+  render: () => <View style={{
+    width: 340,
+    gap: spacing[24]
+  }}>
+      <Block title="features, loading"><Grid variant="features" loading skeletonCount={6} /></Block>
+      <Block title="features, empty (renders nothing)"><Grid variant="features" items={[]} /></Block>
+      <Block title="features, one item"><Grid variant="features" items={FEATURES.slice(0, 1)} /></Block>
+      <Block title="features, long labels, 3 columns"><Grid variant="features" columns={3} items={[...FEATURES, {
+        icon: 'feat-bank-outline',
+        label: 'Zero forex markup on international spends above ₹10,00,000 a year across all merchants'
+      }]} /></Block>
+      <Block title="filters, odd count, none selected"><FiltersDemo items={FILTERS.slice(0, 3).map(f => ({
+        ...f,
+        selected: false
+      }))} /></Block>
+      <Block title="brand-1x2, odd count"><Grid variant="brand-1x2" items={OFFERS_1X2.slice(0, 3)} /></Block>
+      <Block title="brand-1x3, timer shown"><Grid variant="brand-1x3" items={BRANDS_1X3.map(b => ({
+        ...b,
+        showTimer: true,
+        endsAt: '08:15:30'
+      }))} /></Block>
+      <Block title="cashback-timelines, one item"><Grid variant="cashback-timelines" items={TIMELINES.slice(0, 1)} /></Block>
+    </View>
+}`,...u.parameters?.docs?.source}}};const Se=["Playground","Variants","States"];export{d as Playground,u as States,p as Variants,Se as __namedExportsOrder,je as default};

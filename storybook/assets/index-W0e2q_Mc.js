@@ -1,1 +1,0 @@
-import{r,D as e}from"./iframe-BxRbKpJi.js";function d(){var n=r.useState(()=>e.get("window")),o=n[0],t=n[1];return r.useEffect(()=>{function i(a){var s=a.window;s!=null&&t(s)}return e.addEventListener("change",i),t(e.get("window")),()=>{e.removeEventListener("change",i)}},[]),o}export{d as u};

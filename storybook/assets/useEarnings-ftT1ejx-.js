@@ -1,0 +1,1 @@
+import{e as a,f as r,h as u,m as t,i as c,j as i}from"./ScreenHarness-Dd1A2iH9.js";function y(){const{accessToken:s}=a(),e=r({queryKey:i.user.earnings(),enabled:!!s,queryFn:async({signal:n})=>t(await c(s,n))});return u(e),e}export{y as u};
