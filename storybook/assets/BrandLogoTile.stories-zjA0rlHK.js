@@ -1,0 +1,22 @@
+import{j as r,V as i}from"./iframe-BxRbKpJi.js";import{B as e}from"./StepIndicator-QGdoZiTE.js";import{S as p,B as n}from"./_chrome-DBrYcJuA.js";import{i as o}from"./index-DCss3D-b.js";import{s as l}from"./motion-C4NNgPp6.js";import"./preload-helper-Zf8nSx-t.js";import"./opacity-rEjPgtwf.js";import"./Skeleton-CiGE1IyU.js";import"./Text-Ck5O8Bhy.js";import"./LinearGradient-D-mTzrbk.js";import"./Icon-D2-s9TUf.js";import"./xml-Bn01aVoN.js";import"./gradients-Yoe7k8Uk.js";import"./RollingAmount-BRiwRPSP.js";import"./MaskedView.web-DXs-dcNS.js";import"./GradientText-DggIsGMv.js";import"./Button-DVRCyaXo.js";import"./haptics-CPhAe_fn.js";import"./index-DEPmHYsu.js";import"./Input-BFP__vmY.js";import"./TextArea-DDj-No3r.js";import"./OtpBox-C-y7Po7f.js";import"./OtpInput-CmjSyeXa.js";import"./Tag-DgIRey8C.js";import"./tagVariants-CS75JYCB.js";import"./CashbackBadge-MBJ6k9Zu.js";import"./Badge-BJ3sF1gK.js";import"./StatusBadge-m4NZRdxB.js";import"./StatDelta-CA75HUTp.js";import"./RankBadge-dLW9AnxB.js";import"./Chip-CIMK_bj9.js";import"./Switch-Cm9zr9Tl.js";import"./Selector-DG4-S17T.js";import"./Checkbox-CnlKQ7TS.js";import"./Radio-DXjJUXd2.js";import"./Divider-Cssvbwpj.js";import"./DividerVertical-CkB6P4XI.js";import"./Timer-DHWrzDra.js";import"./CashbackTag-DeTcLCLT.js";import"./DateSelection-DNs7GY5A.js";import"./MonthSelector-CU5sud-v.js";import"./Rating-CymuZ3ks.js";import"./CardTypeTag-DPAGmYpU.js";import"./WalletTag-Bb9F1J0X.js";import"./NumberBadge-DFB4ZAhG.js";import"./TestimonialSavingsTag-BU0M2Wcl.js";const c={flexDirection:"row",flexWrap:"wrap",gap:l[8],paddingHorizontal:l[16]},ir={title:"Components/Media/BrandLogoTile",component:e,tags:["autodocs","live"],parameters:{layout:"centered",source:"src/atoms/BrandLogoTile.tsx",docs:{description:{component:"A 74 wide bordered logo tile in three heights; used in the missing cashback flow and on help ticket cards."}}},argTypes:{source:{control:!1},size:{control:"inline-radio",options:["32","40","44"],description:"Tile height in px. Default 40."},style:{control:!1}},args:{source:o.brands.nykaa,size:"40"}},t={},s={render:()=>r.jsx(p,{width:420,children:["32","40","44"].map(m=>r.jsx(n,{label:`size ${m}`,children:r.jsx(i,{style:c,children:Object.entries(o.brands).slice(0,5).map(([d,u])=>r.jsx(e,{source:u,size:m},d))})},m))})},a={parameters:{docs:{description:{story:"A logo that fails to load swaps to the Cards.xtra mark, so a row is never empty. The broken source here is an inline data URI, not a network call."}}},render:()=>r.jsxs(p,{width:420,children:[r.jsx(n,{label:"Loaded",children:r.jsx(i,{style:c,children:r.jsx(e,{source:o.brands.amazon})})}),r.jsx(n,{label:"Broken source: falls back to the Cards.xtra mark",children:r.jsx(i,{style:c,children:r.jsx(e,{source:{uri:"data:image/png;base64,AAAA"}})})}),r.jsx(n,{label:"Store image (wide art, contained)",children:r.jsxs(i,{style:c,children:[r.jsx(e,{source:o.stores.jioMart12}),r.jsx(e,{source:o.stores.tataNeu12})]})})]})};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:"{}",...t.parameters?.docs?.source}}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  render: () => <Stack width={420}>
+      {(['32', '40', '44'] as const).map(s => <Block key={s} label={\`size \${s}\`}>
+          <View style={row}>{Object.entries(images.brands).slice(0, 5).map(([k, src]) => <BrandLogoTile key={k} source={src} size={s} />)}</View>
+        </Block>)}
+    </Stack>
+}`,...s.parameters?.docs?.source}}};a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    docs: {
+      description: {
+        story: 'A logo that fails to load swaps to the Cards.xtra mark, so a row is never empty. The broken source here is an inline data URI, not a network call.'
+      }
+    }
+  },
+  render: () => <Stack width={420}>
+      <Block label="Loaded"><View style={row}><BrandLogoTile source={images.brands.amazon} /></View></Block>
+      <Block label="Broken source: falls back to the Cards.xtra mark"><View style={row}><BrandLogoTile source={{
+          uri: 'data:image/png;base64,AAAA'
+        }} /></View></Block>
+      <Block label="Store image (wide art, contained)"><View style={row}><BrandLogoTile source={images.stores.jioMart12} /><BrandLogoTile source={images.stores.tataNeu12} /></View></Block>
+    </Stack>
+}`,...a.parameters?.docs?.source}}};const nr=["Playground","Variants","States"];export{t as Playground,a as States,s as Variants,nr as __namedExportsOrder,ir as default};

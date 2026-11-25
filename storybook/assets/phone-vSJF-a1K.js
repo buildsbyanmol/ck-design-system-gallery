@@ -1,0 +1,1 @@
+const i=16;function s(t){let e=t.replace(/\D/g,"");return e.length>10&&(e.length===12&&e.startsWith("91")?e=e.slice(2):e.length===13&&e.startsWith("091")?e=e.slice(3):e.length===11&&e.startsWith("0")&&(e=e.slice(1))),e.slice(0,10)}export{i as P,s as n};

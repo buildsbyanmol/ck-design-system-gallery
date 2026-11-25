@@ -1,0 +1,31 @@
+import{j as e,r as f}from"./iframe-BxRbKpJi.js";import{S as r,a as b}from"./SearchBar-D5vu8HTi.js";import{i as u}from"./index-DCss3D-b.js";import{S as d,G as t}from"./_kit-D3gHRJQk.js";import"./preload-helper-Zf8nSx-t.js";import"./xml-Bn01aVoN.js";import"./Text-Ck5O8Bhy.js";import"./motion-C4NNgPp6.js";import"./StepIndicator-QGdoZiTE.js";import"./opacity-rEjPgtwf.js";import"./Skeleton-CiGE1IyU.js";import"./LinearGradient-D-mTzrbk.js";import"./Icon-D2-s9TUf.js";import"./gradients-Yoe7k8Uk.js";import"./RollingAmount-BRiwRPSP.js";import"./MaskedView.web-DXs-dcNS.js";import"./GradientText-DggIsGMv.js";import"./Button-DVRCyaXo.js";import"./haptics-CPhAe_fn.js";import"./index-DEPmHYsu.js";import"./Input-BFP__vmY.js";import"./TextArea-DDj-No3r.js";import"./OtpBox-C-y7Po7f.js";import"./OtpInput-CmjSyeXa.js";import"./Tag-DgIRey8C.js";import"./tagVariants-CS75JYCB.js";import"./CashbackBadge-MBJ6k9Zu.js";import"./Badge-BJ3sF1gK.js";import"./StatusBadge-m4NZRdxB.js";import"./StatDelta-CA75HUTp.js";import"./RankBadge-dLW9AnxB.js";import"./Chip-CIMK_bj9.js";import"./Switch-Cm9zr9Tl.js";import"./Selector-DG4-S17T.js";import"./Checkbox-CnlKQ7TS.js";import"./Radio-DXjJUXd2.js";import"./Divider-Cssvbwpj.js";import"./DividerVertical-CkB6P4XI.js";import"./Timer-DHWrzDra.js";import"./CashbackTag-DeTcLCLT.js";import"./DateSelection-DNs7GY5A.js";import"./MonthSelector-CU5sud-v.js";import"./Rating-CymuZ3ks.js";import"./CardTypeTag-DPAGmYpU.js";import"./WalletTag-Bb9F1J0X.js";import"./NumberBadge-DFB4ZAhG.js";import"./TestimonialSavingsTag-BU0M2Wcl.js";import"./useScreenFocused-B8TJihc3.js";import"./with-selector-BmPKclR2.js";const m=[{header:"Cards",rows:[{logo:u.brands.amazon,title:"HDFC Millennia",subtitle:"Credit card · X% on Amazon"},{logo:u.brands.flipkart,title:"SBI Cashback",subtitle:"Credit card · Annual fee ₹999"}]},{header:"Stores",rows:[{logo:u.brands.myntra,title:"Myntra",subtitle:"Fashion"}]}];function g(a){const[S,s]=f.useState(a.state??"default"),[o,p]=f.useState(a.value??"");return e.jsx(r,{...a,state:S,value:o,sections:o.length>0?a.sections??m:[],onFocus:()=>s(o?"filled":"focused"),onBack:()=>{p(""),s("default")},onBlur:()=>{o||s("default")},onChangeText:h=>{p(h),s(h?"filled":"focused")},onClear:()=>{p(""),s("focused")}})}const he={title:"Components/Input fields/SearchBar",component:r,tags:["autodocs","live"],parameters:{source:"src/molecules/SearchBar.tsx",docs:{description:{component:"A 48 dp search bar with three states (default, focused, filled). The filled state shows a results list below the bar."}}},argTypes:{state:{control:"select",options:["default","focused","filled"]},leadingIcon:{control:"select",options:["back","search"]},value:{control:"text"},placeholder:{control:"text"}},args:{state:"default",placeholder:"Search cards and stores",leadingIcon:"back"},render:a=>e.jsx(d,{children:e.jsx(g,{...a})})},l={},i={render:()=>e.jsxs(d,{children:[e.jsx(t,{label:"default",children:e.jsx(r,{state:"default"})}),e.jsx(t,{label:"focused, leadingIcon back",children:e.jsx(r,{state:"focused",leadingIcon:"back"})}),e.jsx(t,{label:"focused, leadingIcon search",children:e.jsx(r,{state:"focused",leadingIcon:"search"})}),e.jsx(t,{label:"filled with results",children:e.jsx(r,{state:"filled",value:"hdfc",sections:m})})]})},c={parameters:{docs:{description:{story:"The cycling placeholder animates on web but timing differs from a device. Filled with no sections shows the bar only; the empty-results message is not part of this component (open product question: where it lives)."}}},render:()=>e.jsxs(d,{children:[e.jsx(t,{label:"cycling placeholders",children:e.jsx(r,{state:"default",placeholders:["Search HDFC Millennia","Search SBI Cashback","Search Amazon"]})}),e.jsx(t,{label:"filled, no results",children:e.jsx(r,{state:"filled",value:"zzzz",sections:[]})}),e.jsx(t,{label:"long query",children:e.jsx(r,{state:"filled",value:"HDFC Bank Millennia credit card with Amazon Pay and Flipkart",sections:[]})})]})},n={name:"SearchResults",parameters:{docs:{description:{story:"The results list on its own. Rendered under the bar by SearchBar, or alone inside a sheet scroll area (SearchTopSheet)."}}},render:()=>e.jsx(d,{children:e.jsx(b,{sections:m})})};l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:"{}",...l.parameters?.docs?.source}}};i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{
+  render: () => <Stack>
+      <Group label="default"><SearchBar state="default" /></Group>
+      <Group label="focused, leadingIcon back"><SearchBar state="focused" leadingIcon="back" /></Group>
+      <Group label="focused, leadingIcon search"><SearchBar state="focused" leadingIcon="search" /></Group>
+      <Group label="filled with results"><SearchBar state="filled" value="hdfc" sections={SECTIONS} /></Group>
+    </Stack>
+}`,...i.parameters?.docs?.source}}};c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    docs: {
+      description: {
+        story: 'The cycling placeholder animates on web but timing differs from a device. Filled with no sections shows the bar only; the empty-results message is not part of this component (open product question: where it lives).'
+      }
+    }
+  },
+  render: () => <Stack>
+      <Group label="cycling placeholders"><SearchBar state="default" placeholders={['Search HDFC Millennia', 'Search SBI Cashback', 'Search Amazon']} /></Group>
+      <Group label="filled, no results"><SearchBar state="filled" value="zzzz" sections={[]} /></Group>
+      <Group label="long query"><SearchBar state="filled" value="HDFC Bank Millennia credit card with Amazon Pay and Flipkart" sections={[]} /></Group>
+    </Stack>
+}`,...c.parameters?.docs?.source}}};n.parameters={...n.parameters,docs:{...n.parameters?.docs,source:{originalSource:`{
+  name: 'SearchResults',
+  parameters: {
+    docs: {
+      description: {
+        story: 'The results list on its own. Rendered under the bar by SearchBar, or alone inside a sheet scroll area (SearchTopSheet).'
+      }
+    }
+  },
+  render: () => <Stack><SearchResults sections={SECTIONS} /></Stack>
+}`,...n.parameters?.docs?.source}}};const fe=["Playground","Variants","States","SearchResultsList"];export{l as Playground,n as SearchResultsList,c as States,i as Variants,fe as __namedExportsOrder,he as default};
